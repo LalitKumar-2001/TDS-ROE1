@@ -20,5 +20,8 @@ jobs:
       - name: Install Playwright dependencies
         run: npm install playwright
 
+      - name: Install Playwright Browsers
+        run: npx playwright install
+
       - name: Scrape & Sum Tables (21f1004874@ds.study.iitm.ac.in)
         run: node sum_tables.js
