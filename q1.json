@@ -1,14 +1,7 @@
-
-[
-    { "pair": "Net_Sales-Footfall", 
-      "correlation": 0.89 
-    },
-    {
-      "pair": "Promo_Spend-Net_Sales",
-      "correlation": 0.45
-    },
-    {
-      "pair": "Promo_Spend-Footfall",
-      "correlation": 0.48
-    }
-]
+{
+  "data": [
+    { "pair": "Net_Sales-Footfall", "correlation": 0.89 },
+    { "pair": "Promo_Spend-Net_Sales", "correlation": 0.45 },
+    { "pair": "Promo_Spend-Footfall", "correlation": 0.48 }
+  ]
+}
